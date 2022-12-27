@@ -16,7 +16,7 @@
         Console.WriteLine("Созданный массив:");
         WriteLineArray(myArray);
 
-        int count = GetCountTrend(myArray);
+        int count = GetTrendCount(myArray);
 
         Console.WriteLine("Количество возрастаний: " + count);
     }
@@ -47,7 +47,7 @@
         return array;
     }
 
-    private static int GetCountTrend(int[] array)
+    private static int GetTrendCount(int[] array)
     {
         int count = 0;
         for (int i = 0; i < array.Length; i++)
