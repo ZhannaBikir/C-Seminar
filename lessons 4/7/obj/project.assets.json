@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С#_practica\\lessons 4\\7\\7.csproj",
+      "projectUniqueName": "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С# практика\\lessons 4\\7\\7.csproj",
       "projectName": "7",
-      "projectPath": "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С#_practica\\lessons 4\\7\\7.csproj",
+      "projectPath": "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С# практика\\lessons 4\\7\\7.csproj",
       "packagesPath": "C:\\Users\\Zhann\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С#_practica\\lessons 4\\7\\obj\\",
+      "outputPath": "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С# практика\\lessons 4\\7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zhann\\AppData\\Roaming\\NuGet\\NuGet.Config"
