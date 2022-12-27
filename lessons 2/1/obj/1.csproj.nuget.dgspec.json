@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С practica\\lessons 2\\1\\1.csproj": {}
+    "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С# практика\\lessons 2\\1\\1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С practica\\lessons 2\\1\\1.csproj": {
+    "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С# практика\\lessons 2\\1\\1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С practica\\lessons 2\\1\\1.csproj",
+        "projectUniqueName": "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С# практика\\lessons 2\\1\\1.csproj",
         "projectName": "1",
-        "projectPath": "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С practica\\lessons 2\\1\\1.csproj",
+        "projectPath": "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С# практика\\lessons 2\\1\\1.csproj",
         "packagesPath": "C:\\Users\\Zhann\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С practica\\lessons 2\\1\\obj\\",
+        "outputPath": "C:\\Users\\Zhann\\OneDrive\\Рабочий стол\\GB\\С# практика\\lessons 2\\1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zhann\\AppData\\Roaming\\NuGet\\NuGet.Config"
