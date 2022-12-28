@@ -4,14 +4,14 @@
     {
         // Дан массив размер N. Найти количество участков, на которых его элементы монотонно 
         // возрастают
-        // Console.Write("Введите количество элементов массива: ");
-        // int a = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Введите количество элементов массива: ");
+        int a = Convert.ToInt32(Console.ReadLine());
 
-        // int[] myArray = new int[a];
-        // myArray = FillArrayRandomNumbers(myArray, 0, 100);
+        int[] myArray = new int[a];
+        myArray = FillArrayRandomNumbers(myArray, 0, 100);
 
 
-        int[] myArray = { 9, 1, 2, 3, 3, 3, 1, 2, 2, 3, 4, 3, 2, 1 };
+        // int[] myArray = { 9, 1, 2, 3, 3, 3, 1, 2, 2, 3, 4, 3, 2, 1 };
 
         Console.WriteLine("Созданный массив:");
         WriteLineArray(myArray);
