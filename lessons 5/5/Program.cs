@@ -7,20 +7,20 @@
 Console.Write("Введите размер массива: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-int[] myArray = new int [a];
+int[] myArray = new int[a];
 Random rnd = new Random();
-int summ = 0; 
-int[] myArray2 = new int [a];
+int summ = 0;
+int[] myArray2 = new int[a];
 
 Console.WriteLine("Вывод массива: ");
 Console.Write("[ ");
 
-for (int i=0; i<myArray.Length; i++)
+for (int i = 0; i < myArray.Length; i++)
 {
-    myArray[i]=rnd.Next(1, 10);
+    myArray[i] = rnd.Next(1, 10);
 }
 
-for (int i=0; i<myArray.Length; i++)
+for (int i = 0; i < myArray.Length; i++)
 {
     Console.Write(" " + myArray[i] + " ");
 }
@@ -29,13 +29,15 @@ Console.WriteLine(" ]");
 Console.WriteLine("Вывод нового массива: ");
 Console.Write("[ ");
 
-for (int i=0, j=myArray.Length - 1; i<myArray.Length / 2; i++, j--)
+for (int i = 0, j = myArray.Length - 1; i < myArray.Length / 2; i++, j--)
 {
     summ = myArray[i] * myArray[j];
-    myArray2[i] = summ;      
+    myArray2[i] = summ;
 }
-for (int i=0; i<myArray.Length / 2; i++)
- {
+
+for (int i = 0; i < myArray.Length / 2; i++)
+{
     Console.Write(" " + myArray2[i] + " ");
- }
+}
+
 Console.WriteLine(" ]");
