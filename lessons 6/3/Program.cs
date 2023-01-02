@@ -5,3 +5,17 @@
 
 Console.Write("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
+
+int b = 0;
+int c = 1;
+int d;
+
+Console.Write(b + " " + c + " ");
+
+for (int i = 3; i <= a; i++)
+{
+    d = b + c;
+    Console.Write(d + " ");
+    b = c;
+    c = d;
+}
