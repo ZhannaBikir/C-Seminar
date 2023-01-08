@@ -5,7 +5,7 @@
 // [1, 2, 3, 6, 2] -> 0
 // [10, 11, 12, 13, 14] -> 5
 
-int[] myArray = new int [123];
+int[] myArray = new int[123];
 Random rnd = new Random();
 
 int count = 0;
@@ -13,7 +13,7 @@ int count = 0;
 Console.WriteLine("Вывод массива: ");
 Console.Write("[ ");
 
-for (int i=0; i<myArray.Length; i++)
+for (int i = 0; i < myArray.Length; i++)
 {
     myArray[i] = rnd.Next(0, 150);
     Console.Write(" " + myArray[i] + " ");
@@ -21,11 +21,11 @@ for (int i=0; i<myArray.Length; i++)
 
 Console.WriteLine(" ]");
 
-for (int i=0; i < myArray.Length; i++)
+for (int i = 0; i < myArray.Length; i++)
 {
-   if (myArray[i] > 10 && myArray[i] < 99) 
-   {
-      count = count + 1;
-   }
+    if (myArray[i] > 10 && myArray[i] < 99)
+    {
+        count = count + 1;
+    }
 }
 Console.WriteLine("Количество элементов от 10 до 99: " + count);
